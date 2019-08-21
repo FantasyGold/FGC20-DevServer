@@ -1,0 +1,8 @@
+build
+node_modules
+.fantasygold
+.DS_Store
+solar.json
+dist
+.vscode
+.cache
