@@ -2,6 +2,27 @@
 # yarn lockfile v1
 
 
+"@fantasygold/fantasygoldjs-ethjs-abi@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@fantasygold/fantasygoldjs-ethjs-abi/-/fantasygoldjs-ethjs-abi-1.0.0.tgz#f8aeccc570a96cbd4db79919ea2859d101d3d5b8"
+  integrity sha512-7vfessKY5O1uYGmNWoLJdVSvDA187MOrBsguGEO7DuVS7NCjAzoyPImNxD9OEBI6iQIct8Is51u7YTCEztAThA==
+  dependencies:
+    bn.js "4.11.6"
+    buffer "^5.0.8"
+    js-sha3 "0.5.5"
+    number-to-bn "1.7.0"
+
+"@fantasygold/fantasygoldjs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@fantasygold/fantasygoldjs/-/fantasygoldjs-1.0.0.tgz#9f6b9f6e0ebd5f14bea607b3d1a8dd2847835ce6"
+  integrity sha512-iJpIMeOB2uWP2hjwKoo+yvCYmxV/pZpNB3vUOcU86HNzDuQYJm2c3N4lKljMd6wD+L2bw7nnW52a0kNlWUAYhg==
+  dependencies:
+    "@fantasygold/fantasygoldjs-ethjs-abi" "^1.0.0"
+    axios "^0.18.1"
+    btoa "^1.1.2"
+    eventemitter3 "^2.0.3"
+    url-parse "^1.4.7"
+
 "@types/classnames@^2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.3.tgz#3f0ff6873da793870e20a260cada55982f38a9e5"
@@ -1257,9 +1278,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0, loose-envify@^1.1.0:
   version "1.3.1"
@@ -1700,26 +1721,6 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
-
-fantasygoldjs-ethjs-abi@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/fantasygoldjs-ethjs-abi/-/fantasygoldjs-ethjs-abi-1.0.3.tgz#d2aecd89abfa4e118de48af9a741855cd89947dd"
-  dependencies:
-    bn.js "4.11.6"
-    buffer "^5.0.8"
-    js-sha3 "0.5.5"
-    number-to-bn "1.7.0"
-
-fantasygoldjs@^1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/fantasygoldjs/-/fantasygoldjs-1.9.3.tgz#7531d8657812e47c1d671a486acfedde6777d5a1"
-  integrity sha512-RvbxaGEF0Fi7GZBFfQ2z2RVIVnURiYJdyyVclTcetcfmYVOrM4dsr545biM59ac7QbP5e/qhLW0IRdd5Zu15cA==
-  dependencies:
-    axios "^0.18.1"
-    btoa "^1.1.2"
-    eventemitter3 "^2.0.3"
-    fantasygoldjs-ethjs-abi "^1.0.3"
-    url-parse "^1.4.7"
 
 querystringify@^2.1.1:
   version "2.1.1"
